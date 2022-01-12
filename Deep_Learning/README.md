@@ -314,3 +314,10 @@ Sequential API는 간단한 모델을 구현하기에 적합합니다. Functiona
 
 장점 : Functional API로도 구현할 수 없는 모델들조차 구현이 가능합니다.
 단점 : 객체 지향 프로그래밍(Object-oriented programming)에 익숙해야 하므로 코드 사용이 가장 까다롭습니다.
+
+
+
+# 다층 퍼셉트론(MultiLayer Perceptron, MLP)으로 텍스트 분류하기
+
+앞서 단층 퍼셉트론의 형태에서 은닉층이 1개 이상 추가된 신경망을 **다층 퍼셉트론(MLP)**이라고 한다고 배웠습니다. 다층 퍼셉트론은 **피드 포워드 신경망(Feed Forward Neural Network, FFNN)**의 가장 기본적인 형태입니다. 피드 포워드 신경망은 입력층에서 출력층으로 오직 한 방향으로만 연산 방향이 정해져 있는 신경망을 말합니다.
+
